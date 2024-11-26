@@ -1,0 +1,19 @@
+.contact-info-box {
+    background-color: #40414F; /* Box abu-abu gelap */  
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .contact-info-box strong {
+    color: #ffff;
+    font-weight: 600;
+  }
+  
+  .contact-info-box p {
+    margin: 10px 0;
+    color: #fff;
+  }
+  

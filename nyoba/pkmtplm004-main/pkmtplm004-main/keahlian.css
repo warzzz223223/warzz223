@@ -1,0 +1,52 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+    color: #ff0015; /* Warna biru untuk judul */
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Membiarkan baris membungkus jika layar lebih kecil */
+}
+
+.keahlian-box {
+    background-color: #40414F; /* Box abu-abu gelap */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center; /* Memusatkan teks */
+    height: 300px; /* Atur tinggi tetap untuk setiap box */
+    display: flex; /* Menggunakan flexbox untuk menyusun isi */
+    flex-direction: column; /* Mengatur arah kolom */
+    justify-content: space-between; /* Menyebarkan konten secara merata */
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto; /* Memusatkan gambar secara horizontal */
+}
+
+.mb-4 {
+    margin-top: 20px;
+    margin-bottom: 1.5rem; /* Jarak bawah untuk setiap kolom */
+}
+
+h4 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color:#fff
+}

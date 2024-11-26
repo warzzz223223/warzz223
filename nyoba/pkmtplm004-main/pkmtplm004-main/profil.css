@@ -1,0 +1,45 @@
+
+/* Styling untuk bagian Profil */
+.Profil {
+    padding: 40px 20px;
+    border-radius: 10px;
+  }
+  
+  .Profil img {
+    width: 350px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling untuk judul dan teks */
+  .Profil h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .Profil p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Styling untuk grid kolom kiri dan kanan */
+  .Profil .container {
+    max-width: 800px;
+  }
+  
+  .Profil .col-md-6 {
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .Profil .col-md-6 h2 {
+    color: #007bff; /* Warna teks kiri dan kanan */
+    margin-bottom: 10px;
+  }
+  
+  .Profil .col-md-6 p {
+    text-align: justify;
+  }
+  

@@ -1,0 +1,37 @@
+body {
+    padding-top: 70px; /* Sesuaikan tinggi navbar */
+    background-color: #770303 !important; /* Abu-abu gelap mirip dark mode ChatGPT */
+    color: #000000; /* Teks putih lembut */
+  }
+  
+  .navbar {
+    background-color: #f00121; /* Navbar sedikit lebih gelap */
+    border-bottom: 1px solid #357479; /* Garis bawah halus */
+  }
+  
+  .nav-link {
+    color: #000000 !important; /* Warna teks navbar */
+  }
+  
+  .nav-link:hover {
+    color: #10A37F !important; /* Warna hijau lembut saat hover */
+  }
+  
+  .carousel-item {
+    height: 400px; /* Tentukan tinggi carousel yang konsisten */
+    display: none; /* Sembunyikan semua item secara default */
+}
+
+.carousel-item.active {
+    display: flex; /* Tampilkan hanya item yang aktif */
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain; /* Menjaga proporsi gambar agar tidak terpotong */
+}
+  
+  
